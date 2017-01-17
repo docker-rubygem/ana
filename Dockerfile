@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.9.2
+ENV VERSION=0.9.8
 
 RUN gem install ana --version ${VERSION} --no-format-exec
 
